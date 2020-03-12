@@ -1,0 +1,51 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-10T11:36:05.054Z",
+        "line": 3,
+        "name": "Verify employee name",
+        "description": "",
+        "id": "verify-different-get-operations-in-rest-assured;verify-employee-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "I perform GET operation for \"/employees\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I perform GET for the employee id \"1\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I should see the employee name as \"Rajesh\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify different GET operations in Rest Assured",
+    "description": "",
+    "id": "verify-different-get-operations-in-rest-assured",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/GETService.feature",
+    "tags": []
+  }
+]
